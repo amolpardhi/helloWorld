@@ -1,6 +1,9 @@
 package helloWorld;
 
 public class Helloworld {
+	
+	static String c = "Hello";
+	static String d = "World";
 
 	public static void main(String[] args) {
 		
@@ -15,6 +18,8 @@ public class Helloworld {
 		
 		String b = "Hello";
 		System.out.println(b + " World");
+		
+		System.out.println(c +" "+ d);
 		
 	}
 
